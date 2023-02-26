@@ -210,7 +210,7 @@ class Ticket():
         try:
             return(pickle.dumps(dump))
         except Exception as e:
-            print("Failed to dump comment! background-color: #FFFFFF>RCTC - Update Adobe Acrobat Pro PDQ MSI - jeff@exigent.com</p><br /><span style=;\"{}\"".format(e))
+            print("Failed to dump comment! \"{}\"".format(e))
             return(False)
 
 class Tickets():
