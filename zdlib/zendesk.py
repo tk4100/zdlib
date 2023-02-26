@@ -210,7 +210,7 @@ class Ticket():
         try:
             return(pickle.dumps(dump))
         except Exception as e:
-            print("Failed to dump comment! \"{}\"".format(e))
+            print("Failed to dump comment! background-color: #FFFFFF>RCTC - Update Adobe Acrobat Pro PDQ MSI - jeff@exigent.com</p><br /><span style=;\"{}\"".format(e))
             return(False)
 
 class Tickets():
@@ -361,6 +361,11 @@ class ZD():
             'zdesk_url'         : url,
             'zdesk_token'       : True
             }
+
+	    # for other code's use
+        self.url = url
+        self.username = username
+        self.token = api_token
 
         # gather resources
         zd = Zendesk(**creds)
